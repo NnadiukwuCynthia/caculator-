@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.page_container {
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5dcab8;
+}
+.calculator-container {
+  width: 33%;
+  height: 85%;
+  max-height: 600px;
+  margin: auto;
+  padding: 15px 10px;
+  border-radius: 20px;
+  background-color: #f8f8f8;
+}
+.mood {
+  width: 100%;
+  padding-bottom: 5px;
+  text-align: end;
+}
+.display {
+  width: 95%;
+  height: 35%;
+  padding: 10px 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px grey;
+}
+.user-input {
+  color: #1a1b1b;
+  font-size: 25px;
+  font-family: "Noto Sans", sans-serif;
+}
+.track {
+  height: 50%;
+  color: #606061;
+  font-size: 20px;
+  font-family: "Noto Sans", sans-serif;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.result {
+  padding-top: 10px;
+  color: #262728;
+  font-size: 30px;
+  font-family: "Noto Sans", sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+.btn-container {
+  padding: 10px 5px 15px;
+  background-color: #fff;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.btn {
+  height: 60px;
+  background-color: unset;
+  border: unset;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 20px;
+  box-shadow: 1px 2px 5px grey;
+  /* color: #fff; */
+}
+.btn-container .equal {
+  height: 55px;
+  margin-top: 5px;
+  color: #fff;
+  background-color: #1ec66d;
+  box-shadow: 1px 2px 5px #0a5a2f;
+  border-radius: 5px;
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+.operate {
+  color: #1ec66d;
+  background-color: #ebebf0;
+}
+.other {
+  background-color: #ebebf0;
+}
+.divide {
+  border-radius: 20px 20px 0 0;
+}
+.add {
+  border-radius: 0 0 20px 20px;
+}
+.ac {
+  border-radius: 20px 0 0 20px;
+}
+.percent {
+  border-radius: 0 20px 20px 0;
+}
+.dark {
+  background-color: #14171e;
+  color: #fff;
+}
+.btn-dark {
+  background-color: #1a1d24;
+}
+.action-dark {
+  background-color: #14171e;
+}
+.lightBtn{
+  color: #fff;
+}

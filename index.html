@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CALCULATOR</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="page_container">
+      <div class="calculator-container">
+        <i class="fas fa-moon mood"></i>
+        <div class="display">
+          <div class="user-input">0</div>
+          <div class="track"></div>
+          <div class="result">
+            <div class="equal-operator">=</div>
+            <div class="the-result">0</div>
+          </div>
+        </div>
+        <div class="btn-container">
+          <button class="btn other ac same light" data-action="clear">AC</button>
+          <button class="btn other same light" data-action="backspace"><i class="fas fa-backspace"></i></button>
+          <button class="btn other percent same light" data-action="percent">%</button>
+          <button class="btn operate divide same" data-action="divide">&#247</button>
+          <button class="btn light" value="7">7</button>
+          <button class="btn light" value="8">8</button>
+          <button class="btn light" value="9">9</button>
+          <button class="btn operate same" data-action="multiply">x</button>
+          <button class="btn light" value="4">4</button>
+          <button class="btn light" value="5">5</button>
+          <button class="btn light" value="6">6</button>
+          <button class="btn operate same" data-action="subtract">-</button>
+          <button class="btn light" value="1">1</button>
+          <button class="btn light" value="2">2</button>
+          <button class="btn light" value="3">3</button>
+          <button class="btn operate add same" data-action="add">+</button>
+          <button class="btn light" data-action="dot" value="dot">.</button>
+          <button class="btn light" value="0">0</button>
+          <button class="btn equal" data-action="equal">=</button>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
